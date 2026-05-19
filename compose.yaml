@@ -1,0 +1,12 @@
+name: og-gdac
+services:
+  erddap:
+    image: erddap/erddap:v2.30.0
+    restart: unless-stopped
+    ports:
+      - "${ERDDAP_HTTP_PORT:-8080}:8080"
+      - "${ERDDAP_HTTPS_PORT:-8443}:8443"
+    volumes:
+      - ./erddap/conf/robots.txt:/usr/local/tomcat/webapps/ROOT/robots.txt
+      - ./erddap/content:/usr/local/tomcat/content/erddap
+      - ./erddap/conf/config.sh:/usr/local/tomcat/bin/config.sh
