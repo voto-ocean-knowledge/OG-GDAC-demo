@@ -21,6 +21,13 @@ def write_datasets(ds_ids):
     with open(remote_datasets, "w") as f:
         f.write(json_str)
 
+def add_demo_og1():
+    ds_ids = {
+    "VOTO_OG_nrt_SHW002_M25": "https://erddap.observations.voiceoftheocean.org/erddap/tabledap/OG_nrt_SHW002_M25",
+    "VOTO_OG_nrt_SEA076_M13": "https://erddap.observations.voiceoftheocean.org/erddap/tabledap/OG_nrt_SEA076_M13"
+    }
+    write_datasets(ds_ids)
+
 
 def add_voto_og1():
     df = pd.read_csv("https://erddap.observations.voiceoftheocean.org/erddap/search/index.csv?searchFor=OG-1.0")
@@ -64,6 +71,9 @@ def make_datasets_xml():
 
 
 if __name__ == '__main__':
+    # Comment the following lines depending on which sources you want to add from
+    #add_demo_og1()
     add_voto_og1()
     add_bodc_og1()
+    # Run this function to (re)create the datasets.xml
     make_datasets_xml()

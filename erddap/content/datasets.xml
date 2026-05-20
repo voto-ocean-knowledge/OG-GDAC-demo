@@ -20,8 +20,35 @@
   <unusualActivity />
   <updateMaxEvents />
   <startHeadHtml5 />
-  <startBodyHtml5 />
-  <theShortDescriptionHtml />
+  <startBodyHtml5>
+&lt;body&gt;
+&lt;table class="compact nowrap" style="width:100%; height:80px; background-color:#FFFFFF;"&gt;
+  &lt;tr&gt;
+    &lt;td style="text-align:center; width:60px; "&gt;&lt;a rel="bookmark"
+      href="https://www.oceangliders.org/"&gt;&lt;img
+      title="OceanGliders"
+      src="https://www.oceangliders.org/wp-content/themes/OceanGlider/build/img/logo-ocean-gliders.png" alt="Ocean Gliders"
+      style="vertical-align:middle;height:60px;padding-left:10px;padding-right:30px"&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td style="text-align:left; font-size:x-large; color:#2f9dc0; "&gt;
+      &lt;strong&gt;A demonstrator glider GDAC-ERDDAP™&lt;/strong&gt;
+      &lt;br&gt;&lt;small&gt;&lt;small&gt;&lt;small&gt;You can just do stuff on the internet&lt;/small&gt;&lt;/small&gt;&lt;/small&gt;
+      &lt;/td&gt;
+    &lt;td style="text-align:right; font-size:small; color:#2f9dc0;"&gt;
+      &amp;loginInfo; | &amp;language; &amp;nbsp; &amp;nbsp;
+      &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</startBodyHtml5>
+  <theShortDescriptionHtml>
+
+&lt;h3&gt;To setup this server, see the instructions &lt;a href="https://github.com/voto-ocean-knowledge/OG-GDAC-demo"&gt;instructions repo on github&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Currently this ERDDAP™ server hosts Ocean Gliders OG-1.0 data federated from &lt;a href="https://observations.voiceoftheocean.org/"&gt;Voice of the Ocean Foundation&lt;/a&gt; and &lt;a href="https://www.bodc.ac.uk/"&gt;BODC&lt;/a&gt;. Other sources to be added as adoption of OG-1.0 increases.&lt;/p&gt;
+
+&lt;hr width="100%" size="2"&gt;
+
+[standardShortDescriptionHtml]
+</theShortDescriptionHtml>
   <endBodyHtml5 />
   <standardLicense />
   <standardContact />
