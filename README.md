@@ -2,7 +2,9 @@
 
 A federated ERDDAP of Ocean Gliders data. How hard can it be?
 
-For instructions, see `setup.md`
+For instructions to setup this ERDDAP, see `setup.md`
+
+For example notebooks on getting data from this ERDDAP, see the `notebooks` directory.
 
 ### Success criteria
 
@@ -11,8 +13,8 @@ For instructions, see `setup.md`
 - [x] Federate OG data from multiple servers 
 - [ ] Check that OG datasets are compliant with IOOS compliance checker
 - [ ] Consistently distinguish between nrt and delayed mode datasets
-- [ ] Make datasets searchable
-- [ ] Execute quiries across all datasets
+- [x] Make datasets searchable
+- [ ] Execute queries across all datasets
 - [ ] Instructions to convert this from proof-of-concept docker to a persistent server
 
 # Credits
