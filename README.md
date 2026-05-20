@@ -1,11 +1,14 @@
 # OG-GDAC-demo
-A federated ERDDAP of OG data. How hard can it be?
+
+A federated ERDDAP of Ocean Gliders data. How hard can it be?
+
+For instructions, see `setup.md`
 
 ### Success criteria
 
-- [ ] Simple ERDDAP setup with docker
-- [ ] Federate OG data from one server
-- [ ] Federate OG data from multiple servers
+- [x] Simple ERDDAP setup with docker
+- [x] Federate OG data from one server
+- [x] Federate OG data from multiple servers 
 - [ ] Check that OG datasets are compliant with IOOS compliance checker
 - [ ] Consistently distinguish between nrt and delayed mode datasets
 - [ ] Make datasets searchable
