@@ -4,6 +4,8 @@ A federated ERDDAP of Ocean Gliders data. How hard can it be?
 
 For instructions to setup this ERDDAP, see `setup.md`
 
+You can see a demo deployment here http://136.243.54.252:8081/
+
 For example notebooks on getting data from this ERDDAP, see the `notebooks` directory.
 
 ### Success criteria
