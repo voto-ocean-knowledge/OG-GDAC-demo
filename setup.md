@@ -22,3 +22,9 @@ All of the config parameters are in `erddap/conf/config.sh`. Alternatively, thes
 1. Edit `src/add_federated_datasets.py` to include the sources you want (currently pulling from VOTO and BODC)
 2. Run `src/add_federated_datasets.py`
 3. Restart the ERDDAP server
+
+### Going public
+
+**TODO: do a full worked example of setup with nginx, ssl etc.**
+
+To make this server public, you need a server with an associated address and SSL certificate. Since ERDDAP 2.28, you may need to set `useHeadersForUrl` to `false` in `setup.xml` so that urls are rendered as you would expect them (explained in the [gold standard repo readme](https://github.com/ioos/erddap-gold-standard)). At least, I had to with my nginx setup ymmv.
